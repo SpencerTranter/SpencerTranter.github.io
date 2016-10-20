@@ -179,7 +179,7 @@ body{
 }
 
 #clouds p {
-  left: -50px; top: -250px;
+  left: -10vw; top: -40vh;
   position: relative;
   font-size: 15vmin;
   color: white;
@@ -235,7 +235,7 @@ body{
 .middle h1{
   text-decoration: underline;
 }
-.middle .profile, .tech_stack, .projects, .contact{
+.profile, .tech_stack, .projects, .contact{
   padding-top: 10px;
   height: 50vh;
   margin: 0;
@@ -320,7 +320,17 @@ body{
 }
 
 @media screen and (max-width: 1020px) {
-  .tech_stack .stack_1{
+  .top{
+    background: url('./images/totoro_wallpaper.jpg') no-repeat center cover;
+    background-size: 120vw 100vh;
+  }
+  #clouds p{
+    top: 20vh;
+  }
+  .projects, .tech_stack, .contact, .profile{
+    padding-top: 10vh;
+  }
+  .stack_1{
     margin-bottom: 30px;
   }
   .tech_stack .stack_2{
