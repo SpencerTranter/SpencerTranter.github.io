@@ -43,7 +43,7 @@ body{
   background: url('./images/totoro_wallpaper.jpg') no-repeat center;
   background-size: cover;
   overflow-x: hidden;
-  overflow-y: none;
+  overflow-y: hidden;
 }
 
 #clouds{
