@@ -270,7 +270,10 @@ body{
 .projects a{
   text-decoration: none;
 }
-.projects a:visited{
+.projects #stylist a:link, #jungle a:link, #illaoi a:link{
+  color: inherit;
+}
+.projects #stylist a:visited, #jungle a:visited, #illaoi a:visited{
   color: inherit;
 }
 .projects #project_divs div{
@@ -290,6 +293,7 @@ body{
   color: #58cdcd;
   background-color: #292d46;
 }
+
 .projects #jungle{
   border: 1px solid white;
   color: #dd9999;
