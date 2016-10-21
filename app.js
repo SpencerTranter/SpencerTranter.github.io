@@ -15,22 +15,25 @@ $(document).ready(function(){
     $.scrollTo('.contact', {duration: 1500});
   })
 
-  $('#illaoi').hover(function(){
-    $('#illaoi_p').removeClass('animated fadeOut').addClass('animated fadeIn');
-  }, function(){
-    $('#illaoi_p').removeClass('animated fadeIn').addClass('animated fadeOut');
-  })
+  var windowWidth = $(window).width();
+  if(windowWidth >= 1020) {
+    $('#illaoi').hover(function(){
+      $('#illaoi_p').removeClass('animated fadeOut').addClass('animated fadeIn');
+    }, function(){
+      $('#illaoi_p').removeClass('animated fadeIn').addClass('animated fadeOut');
+    })
 
-  $('#jungle').hover(function(){
-    $('#jungle_p').removeClass('animated fadeOut').addClass('animated fadeIn');
-  }, function(){
-    $('#jungle_p').removeClass('animated fadeIn').addClass('animated fadeOut');
-  })
+    $('#jungle').hover(function(){
+      $('#jungle_p').removeClass('animated fadeOut').addClass('animated fadeIn');
+    }, function(){
+      $('#jungle_p').removeClass('animated fadeIn').addClass('animated fadeOut');
+    })
 
-  $('#stylist').hover(function(){
-    $('#stylist_p').removeClass('animated fadeOut').addClass('animated fadeIn');
-  }, function(){
-    $('#stylist_p').removeClass('animated fadeIn').addClass('animated fadeOut');
-  })
+    $('#stylist').hover(function(){
+      $('#stylist_p').removeClass('animated fadeOut').addClass('animated fadeIn');
+    }, function(){
+      $('#stylist_p').removeClass('animated fadeIn').addClass('animated fadeOut');
+    })
+  }
 
 });
