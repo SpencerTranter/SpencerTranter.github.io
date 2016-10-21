@@ -284,6 +284,14 @@ body{
   height: 25vh;
   border-radius: 10px;
 }
+#project_divs p{
+  margin:0 5% 0 5%;
+  display: inline-block;
+  width: 20vw;
+  font-size: 75%;
+  margin-top: 1%;
+  opacity: 0;
+}
 .projects #project_divs i{
   margin:0 5% 0 5%;
 }
@@ -305,6 +313,9 @@ body{
   background-color: #292d46;
 }
 
+.contact{
+  margin-top: 15px;
+}
 .contact p{
   margin-top: 0;
 }
