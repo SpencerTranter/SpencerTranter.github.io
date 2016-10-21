@@ -224,8 +224,10 @@ body{
 }
 .middle .profile .profile_header h3{
   margin-top: 50px;
+  opacity: 0.75;
 }
 .middle .tech_stack i{
+  opacity: 0.5;
   margin: 0 3%;
   font-size: 12vmin;
 }
