@@ -251,10 +251,10 @@ body{
 .projects a{
   text-decoration: none;
 }
-.projects #stylist a:link, #jungle a:link, #illaoi a:link{
+.projects #stylist a:link, #weather a:link, #sportsello a:link{
   color: inherit;
 }
-.projects #stylist a:visited, #jungle a:visited, #illaoi a:visited{
+.projects #stylist a:visited, #weather a:visited, #sportsello a:visited{
   color: inherit;
 }
 .projects #project_divs div{
@@ -283,12 +283,12 @@ body{
   background-color: #292d46;
 }
 
-.projects #jungle{
+.projects #weather{
   border: 1px solid white;
   color: #dd9999;
   background-color: #292d46;
 }
-.projects #illaoi{
+.projects #sportsello{
   border: 1px solid white;
   color: #35d18a;
   background-color: #292d46;
@@ -342,10 +342,3 @@ body{
     padding: 20px;
   }
 }
-
-
-
-
-
-
-

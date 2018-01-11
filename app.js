@@ -17,16 +17,16 @@ $(document).ready(function(){
 
   var windowWidth = $(window).width();
   if(windowWidth >= 1020) {
-    $('#illaoi').hover(function(){
-      $('#illaoi_p').removeClass('animated fadeOut').addClass('animated fadeIn');
+    $('#sportsello').hover(function(){
+      $('#sportsello_p').removeClass('animated fadeOut').addClass('animated fadeIn');
     }, function(){
-      $('#illaoi_p').removeClass('animated fadeIn').addClass('animated fadeOut');
+      $('#sportsello_p').removeClass('animated fadeIn').addClass('animated fadeOut');
     })
 
-    $('#jungle').hover(function(){
-      $('#jungle_p').removeClass('animated fadeOut').addClass('animated fadeIn');
+    $('#weather').hover(function(){
+      $('#weather_p').removeClass('animated fadeOut').addClass('animated fadeIn');
     }, function(){
-      $('#jungle_p').removeClass('animated fadeIn').addClass('animated fadeOut');
+      $('#weather_p').removeClass('animated fadeIn').addClass('animated fadeOut');
     })
 
     $('#stylist').hover(function(){
